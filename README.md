@@ -6,7 +6,7 @@ This project demonstrates **packet forwarding and next-hop routing** using **Cis
 ### Step-by-step simulation of the packet flow in our network topology:
 https://github.com/user-attachments/assets/5fa203b0-1d80-4b2f-b698-2b28cd401ce2
 
-## 🧱 Topology
+### 🧱 Topology
 PC0 ⇨ R1 ⇨ R2 ⇨ PC1
 
 
@@ -19,7 +19,7 @@ PC0 ⇨ R1 ⇨ R2 ⇨ PC1
 
 ---
 
-## ⚙️ Steps Performed
+### ⚙️ Steps Performed
 
 ### 1️⃣ Device Setup
 - Added 2 PCs and 2 routers (Cisco 2901/2911).  
@@ -51,11 +51,11 @@ PC0 ⇨ R1 ⇨ R2 ⇨ PC1
 ### R2 → PC1 network:
 ip route 192.168.10.0 255.255.255.0 10.0.0.1
 
-## End-to-End Test
+### End-to-End Test
 PC1 → PC2 ping successful ✅
 Packet path: PC0 → R1 → R2 → PC1
 
-## Routing Table Verification
+### Routing Table Verification
 ### R1 Routing Table
 S 172.16.5.0 [1/0] via 10.0.0.2
 C 192.168.10.0 is directly connected
@@ -66,24 +66,24 @@ S 192.168.10.0 [1/0] via 10.0.0.1
 C 10.0.0.0 is directly connected
 C 172.16.5.0 is directly connected
 
-## 🎬 Simulation Mode
+### 🎬 Simulation Mode
 1) Use Simulation Mode in Packet Tracer to visualize packet movement.
 2) Add a Simple PDU from PC0 → PC1.
 3) Observe headers, source/destination IPs, and routing decisions at each router.
 
-🧠 Key Learnings
+### 🧠 Key Learnings
 1) Next-Hop Routing: Routers forward packets using next-hop IPs in routing tables.
 2) Direct vs Remote Networks: Directly connected networks are automatically known; others require static/dynamic routes.
 3) Routing Tables as GPS: Routers consult the routing table to decide the path for every packet.
 4) Packet Visualization: Simulation mode helps understand packet flow, headers, and address changes.
 
-## 💡 Future Enhancements
+### 💡 Future Enhancements
 
 - Add more routers and networks to simulate larger topologies.
 - Experiment with dynamic routing protocols like RIP, OSPF, or EIGRP.
 - Include Wireshark captures for deeper packet analysis.
 
-## 📬 Contact:
+### 📬 Contact:
 
 For any questions, suggestions or collaboration opportunities, feel free to reach out:
 
