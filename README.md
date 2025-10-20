@@ -3,8 +3,11 @@
 ## 🌐 Project Overview
 This project demonstrates **packet forwarding and next-hop routing** using **Cisco Packet Tracer**. It helps visualize how packets travel through routers and how routing tables determine the next hop to reach remote networks.
 
+### Step-by-step simulation of the packet flow in our network topology:
+https://github.com/user-attachments/assets/5fa203b0-1d80-4b2f-b698-2b28cd401ce2
+
 ## 🧱 Topology
-PC0 ---> R1 ---> R2 ---> PC1
+PC0 ⇨ R1 ⇨ R2 ⇨ PC1
 
 
 ### Networks
