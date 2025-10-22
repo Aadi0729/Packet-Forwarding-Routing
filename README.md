@@ -83,6 +83,10 @@ C 172.16.5.0 is directly connected
 - Experiment with dynamic routing protocols like RIP, OSPF, or EIGRP.
 - Include Wireshark captures for deeper packet analysis.
 
+## 🤝 Contributing
+
+🚀 I'm thrilled to share my latest project with you on GitHub! If you find it helpful, inspiring, or just plain awesome, I’d be incredibly grateful if you could ⭐ star the repository!
+
 ### 📬 Contact:
 
 For any questions, suggestions or collaboration opportunities, feel free to reach out:
