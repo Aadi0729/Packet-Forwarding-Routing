@@ -19,7 +19,7 @@ PC0 ⇨ R1 ⇨ R2 ⇨ PC1
 
 ---
 
-### ⚙️ Steps Performed
+### ⚙️ Steps Performed:
 
 #### 1️⃣ Device Setup
 - Added 2 PCs and 2 routers (Cisco 2901/2911).  
